@@ -23,6 +23,10 @@ public class Train {
         this.trainName = trainName;
     }
 
+    public Train() {
+
+    }
+
     public Train(String trainNumber, String trainName) {
         this.trainNumber = trainNumber;
         this.trainName = trainName;
